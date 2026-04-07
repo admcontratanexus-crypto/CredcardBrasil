@@ -1,0 +1,38 @@
+/* RESET */
+* { margin:0; padding:0; box-sizing:border-box; font-family: 'Open Sans', sans-serif; }
+
+body { background-color: #F5F5F5; color: #333; line-height: 1.6; }
+header { background-color: #1A3D7C; color: #fff; padding: 20px 0; text-align:center; }
+header h1 { font-family: 'Montserrat', sans-serif; font-size: 2em; }
+nav { margin-top: 10px; }
+nav a { color: #fff; margin: 0 10px; text-decoration: none; font-weight: bold; }
+
+.container { width: 90%; max-width: 1200px; margin: 20px auto; }
+
+/* LOGIN */
+.login-box { background: #fff; padding: 20px; border-radius: 8px; max-width: 400px; margin: 20px auto; box-shadow: 0 4px 8px rgba(0,0,0,0.1);}
+.login-box h2 { color: #1A3D7C; margin-bottom: 20px; text-align:center; }
+.login-box input { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px; }
+.login-box button { width: 100%; padding: 10px; background: #0F8C4F; border: none; color: #fff; font-weight: bold; border-radius: 5px; cursor: pointer; }
+.login-box button:hover { background: #0B6A3A; }
+
+/* FORMULÁRIO DE EMPRÉSTIMO */
+.loan-box { background: #fff; padding: 20px; border-radius: 8px; max-width: 600px; margin: 20px auto; box-shadow: 0 4px 8px rgba(0,0,0,0.1);}
+.loan-box h2 { color: #1A3D7C; margin-bottom: 20px; text-align:center; }
+.loan-box input, .loan-box select { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px; }
+.loan-box button { width: 100%; padding: 10px; background: #1A3D7C; border: none; color: #fff; font-weight: bold; border-radius: 5px; cursor: pointer; }
+.loan-box button:hover { background: #122A5A; }
+.result { margin-top: 15px; padding: 10px; background: #e0f7e9; border-left: 5px solid #0F8C4F; display:none; }
+
+/* CHAT SIMULADO */
+.chat-box { position: fixed; bottom: 20px; right: 20px; width: 300px; max-height: 400px; background: #fff; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); display:flex; flex-direction: column; overflow:hidden;}
+.chat-header { background: #1A3D7C; color: #fff; padding: 10px; text-align:center; font-weight: bold; }
+.chat-messages { flex: 1; padding: 10px; overflow-y: auto; }
+.chat-input { display:flex; border-top:1px solid #ccc; }
+.chat-input input { flex:1; padding:10px; border:none; }
+.chat-input button { padding:10px; background:#0F8C4F; color:#fff; border:none; cursor:pointer; }
+
+/* RODAPÉ */
+footer { background: #1A3D7C; color: #fff; padding: 20px 0; text-align:center; margin-top:40px;}
+footer p { margin-bottom: 5px; }
+footer a { color: #fff; text-decoration: underline; }
